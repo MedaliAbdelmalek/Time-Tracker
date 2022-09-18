@@ -1,0 +1,96 @@
+.hello{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 80px;
+}
+
+.start-stop-total{
+    display: flex;
+    justify-content: space-around;
+    margin-right:300px;
+    align-items: center;
+}
+
+.start-stop{
+    display: flex;
+    margin-right: 30px;
+}
+
+.start{
+    margin-right: 20px;
+}
+
+.stop{
+    margin-right: 20px;
+}
+
+.date{
+    color: $blue;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 250px;
+}
+
+.start_btn{
+    background-color: white;
+    border: 1px solid $green;
+    border-radius: 5px;
+    color: $green;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.start_btn:hover {
+    color: rgb(37, 146, 37)
+}
+
+.stop_btn{
+    background-color: white;
+    border: 1px solid $red;
+    border-radius: 5px;
+    color: $red;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.stop_btn:hover {
+    color: rgb(178, 11, 11);
+}
+
+.all-periods{
+    width: 60%;
+    margin: auto;
+
+}
+.total-p{
+    color: $grey;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 30px 0 0;
+}
+.total-div{
+    display: flex;
+    justify-content:flex-end;
+    width: 54%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 0.2px solid rgb(226, 226, 226);
+    border-bottom:0.1px solid rgb(226, 226, 226);
+}
+
+
+
+//
+
